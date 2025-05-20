@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Bán Hàng Online</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  body{
+    width:100%;
+  }
+        .product-card img {
+            height: 250px;
+            object-fit: cover;
+        }
+        .banner {
+            background-image: url('images/banner.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+            width: 100%;
+            position: relative;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-shadow: 1px 1px 3px #000;
+        }
+        .banner {
+            width: 100%;
+            height: 700px;
+            position: relative;
+        }
+
+        .banner video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        .banner h1 {
+            font-size: 50px;
+        }
+        .product-card p {
+            color: #555;
+        }
+        footer a {
+            color: #ccc;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+@* <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/images/logo.png" alt="Coolmate Logo" style="height: 40px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">OUTLET</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NAM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NỮ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">THỂ THAO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CARE & SHARE</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Tìm kiếm sản phẩm..." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <div class="d-flex align-items-center ms-3">
+                        <a href="#" class="me-3">
+                            <i class="bi bi-person"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-cart"></i>
+                            <span class="badge bg-danger">0</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav> *@
+
+<!-- Banner -->
+<div class="banner text-white d-flex align-items-center justify-content-center" style="height: 700px; position: relative;width:100%">
+    <video autoplay muted loop playsinline style="width: 100%; height: 100%; object-fit: cover; position: absolute; z-index: -1;">
+        <source src="https://media3.coolmate.me/uploads/videos/banner_chaybo_coolfast.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="text-center">
+        <h1 class="display-4 fw-bold">Ultra Light</h1>
+        <p class="lead">Siêu nhẹ</p>
+    </div>
+</div>
+
+<!-- Product List -->
+<div class="container my-5">
+    <h2 class="mb-4 text-center">Sản phẩm nổi bật</h2>
+    <div class="row">
+        <!-- Product Item -->
+        <div class="col-md-4 mb-4">
+            <div class="card product-card shadow-sm">
+            <a href="/Home/ProductDetail/1">
+                <img src="/images/aothun.jpg" class="card-img-top" alt="Áo Thun">
+            </a>
+                <div class="card-body">
+                    <h5 class="card-title">Áo Thun Năng Động</h5>
+                    <p class="card-text">Áo thun chất liệu cotton mềm mại, thấm hút mồ hôi, phù hợp đi chơi hoặc tập thể thao.</p>
+                    <p class="fw-bold text-danger">150,000 đ</p>
+                    <form method="post" action="/Home/AddToCart">
+    <input type="hidden" name="productId" value="1" />
+    <button type="submit" class="btn btn-primary w-100">Thêm vào giỏ</button>
+</form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sản phẩm 2 -->
+<div class="col-md-4 mb-4">
+    <div class="card product-card shadow-sm">
+        <a href="/Home/ProductDetail/2">
+            <img src="/images/jean.jpg" class="card-img-top" alt="Quần Jean">
+        </a>
+        <div class="card-body">
+            <h5 class="card-title">Quần Jean Cá Tính</h5>
+            <p class="card-text">Thiết kế trẻ trung, phong cách với chất liệu Jean co giãn nhẹ, dễ phối đồ.</p>
+            <p class="fw-bold text-danger">300,000 đ</p>
+            <form method="post" action="/Home/AddToCart">
+                <input type="hidden" name="productId" value="2" />
+                <button type="submit" class="btn btn-primary w-100">Thêm vào giỏ</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Sản phẩm 3 -->
+<div class="col-md-4 mb-4">
+    <div class="card product-card shadow-sm">
+        <a href="/Home/ProductDetail/3">
+            <img src="/images/sneaker.jpg" class="card-img-top" alt="Sneaker">
+        </a>
+        <div class="card-body">
+            <h5 class="card-title">Giày Sneaker Thời Trang</h5>
+            <p class="card-text">Sneaker siêu nhẹ, đế cao su chống trượt, phù hợp với cả nam và nữ.</p>
+            <p class="fw-bold text-danger">500,000 đ</p>
+            <form method="post" action="/Home/AddToCart">
+                <input type="hidden" name="productId" value="3" />
+                <button type="submit" class="btn btn-primary w-100">Thêm vào giỏ</button>
+            </form>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.querySelectorAll('.add-to-cart').forEach(btn => {
+    btn.addEventListener('click', function() {
+        location.assign('/Home/Cart');
+    });
+});
+</script>
+</body>
+</html>
+

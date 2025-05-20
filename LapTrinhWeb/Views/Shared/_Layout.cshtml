@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LapTrinhWeb</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/LapTrinhWeb.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/images/logo.png" alt="Coolmate Logo" style="height: 40px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">OUTLET</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NAM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">NỮ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">THỂ THAO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CARE & SHARE</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Tìm kiếm sản phẩm..." aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <div class="d-flex align-items-center ms-3">
+                        <a href="#" class="me-3">
+                            <i class="bi bi-person"></i>
+                        </a>
+                        <a href="/Home/Cart">
+                            <i class="bi bi-cart"></i>
+                            <span class="badge bg-danger">
+                                @{
+                                    // Đếm số loại sản phẩm khác nhau trong giỏ
+                                    var products = new[] {
+                                        new { Id = 1 },
+                                        new { Id = 2 },
+                                        new { Id = 3 }
+                                    };
+                                    int cartTypeCount = 0;
+                                    foreach (var p in products)
+                                    {
+                                        if ((Context.Session.GetInt32($"Cart_Product_{p.Id}") ?? 0) > 0)
+                                        {
+                                            cartTypeCount++;
+                                        }
+                                    }
+                                }
+                                @cartTypeCount
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>COOLMATE lắng nghe bạn!</h5>
+                    <p>Chúng tôi luôn trân trọng và mong đợi nhận được mọi ý kiến đóng góp từ khách hàng để có thể nâng cấp trải nghiệm dịch vụ và sản phẩm tốt hơn nữa.</p>
+                    <button class="btn btn-primary">ĐÓNG GÓP Ý KIẾN →</button>
+                    <div class="mt-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-telephone me-2"></i>
+                            <div>
+                                <div>Hotline</div>
+                                <div>1900.272737 - 028.7777.2737</div>
+                                <div>(8:30 - 22:00)</div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-envelope me-2"></i>
+                            <div>
+                                <div>Email</div>
+                                <div>Cool@coolmate.me</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h6>COOLCLUB</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Đăng kí thành viên</a></li>
+                        <li><a href="#" class="text-white">Ưu đãi & Đặc quyền</a></li>
+                    </ul>
+                    <h6>TÀI LIỆU - TUYỂN DỤNG</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Tuyển dụng</a></li>
+                        <li><a href="#" class="text-white">Đăng ký bản quyền</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6>CHÍNH SÁCH</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Chính sách đổi trả 60 ngày</a></li>
+                        <li><a href="#" class="text-white">Chính sách khuyến mãi</a></li>
+                        <li><a href="#" class="text-white">Chính sách bảo mật</a></li>
+                        <li><a href="#" class="text-white">Chính sách giao hàng</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6>CHĂM SÓC KHÁCH HÀNG</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Trải nghiệm mua sắm 100% hài lòng</a></li>
+                        <li><a href="#" class="text-white">Hỏi đáp - FAQs</a></li>
+                    </ul>
+                    <h6>KIẾN THỨC MẶC ĐẸP</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Hướng dẫn chọn size đồ nam</a></li>
+                        <li><a href="#" class="text-white">Hướng dẫn chọn size đồ nữ</a></li>
+                        <li><a href="#" class="text-white">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6>VỀ COOLMATE</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Quy tắc ứng xử của Coolmate</a></li>
+                        <li><a href="#" class="text-white">Coolmate 101</a></li>
+                        <li><a href="#" class="text-white">DVKH xuất sắc</a></li>
+                        <li><a href="#" class="text-white">Câu chuyện về Coolmate</a></li>
+                        <li><a href="#" class="text-white">Nhà máy</a></li>
+                        <li><a href="#" class="text-white">Care & Share</a></li>
+                        <li><a href="#" class="text-white">Cam kết bền vững</a></li>
+                        <li><a href="#" class="text-white">Tầm nhìn 2030</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h6>ĐỊA CHỈ LIÊN HỆ</h6>
+                    <ul class="list-unstyled">
+                        <li>Văn phòng Hà Nội: Tầng 3 Tòa nhà BMM, KM2, Đường Phùng Hưng, Phường Phúc La, Quận Hà Đông, TP Hà Nội</li>
+                        <li>Trung tâm vận hành Hà Nội: Lô C8, KCN Lai Xá, Xã Lai Xá, Huyện Hoài Đức, Thành phố Hà Nội</li>
+                        <li>Văn phòng và Trung tâm vận hành TP.HCM: Lô C3, đường D2, KCN Cát Lái, Thành Mỹ Lợi, TP. Thủ Đức, TP. Hồ Chí Minh</li>
+                        <li>Trung tâm R&D: T6-01, The Manhattan Vinhomes Grand Park, Long Bình, TP. Thủ Đức</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="#" class="text-white me-3">
+                        <i class="bi bi-facebook" style="font-size: 1.5rem; border: 2px solid white; border-radius: 50%; padding: 10px;"></i>
+                    </a>
+                    <a href="#" class="text-white me-3">
+                        <i class="bi bi-instagram" style="font-size: 1.5rem; border: 2px solid white; border-radius: 50%; padding: 10px;"></i>
+                    </a>
+                    <a href="#" class="text-white">
+                        <i class="bi bi-youtube" style="font-size: 1.5rem; border: 2px solid white; border-radius: 50%; padding: 10px;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+

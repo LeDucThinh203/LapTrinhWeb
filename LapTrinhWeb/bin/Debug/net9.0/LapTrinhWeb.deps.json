@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "LapTrinhWeb/1.0.0": {
+        "runtime": {
+          "LapTrinhWeb.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LapTrinhWeb/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

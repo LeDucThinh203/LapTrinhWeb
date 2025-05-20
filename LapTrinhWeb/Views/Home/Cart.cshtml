@@ -1,0 +1,77 @@
+@{
+    ViewBag.Title = "Giỏ hàng";
+    var products = new[]
+    {
+        new { Id = 1, Name = "Áo Thun Năng Động", Price = 150000, Image = "/images/aothun.jpg" },
+        new { Id = 2, Name = "Quần Jean Cá Tính", Price = 300000, Image = "/images/jean.jpg" },
+        new { Id = 3, Name = "Giày Sneaker Thời Trang", Price = 500000, Image = "/images/sneaker.jpg" }
+    };
+    int stt = 1;
+    int grandTotal = 0;
+}
+
+<h2 class="text-center mb-4">Giỏ hàng của bạn</h2>
+@if (products.Any(p => (Context.Session.GetInt32($"Cart_Product_{p.Id}") ?? 0) > 0))
+{
+    <table class="table table-bordered text-center align-middle">
+        <thead class="table-secondary">
+            <tr>
+                <th>STT</th>
+                <th>Hình ảnh</th>
+                <th>Tên sản phẩm</th>
+                <th>Số lượng</th>
+                <th>Đơn giá</th>
+                <th>Thành tiền</th>
+                <th>Xóa</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var p in products)
+        {
+            var quantity = Context.Session.GetInt32($"Cart_Product_{p.Id}") ?? 0;
+            if (quantity > 0)
+            {
+                var total = quantity * p.Price;
+                grandTotal += total;
+                <tr>
+                    <td>@(stt++)</td>
+                    <td><img src="@p.Image" alt="@p.Name" style="width:60px; height:60px; object-fit:cover;" /></td>
+                    <td>@p.Name</td>
+                    <td>
+                        <form method="post" action="/Home/UpdateQuantity" style="display:inline;">
+                            <input type="hidden" name="productId" value="@p.Id" />
+                            <input type="hidden" name="change" value="-1" />
+                            <button type="submit" class="btn btn-secondary btn-sm" @(quantity == 1 ? "disabled" : "")>-</button>
+                        </form>
+                        <span class="mx-2">@quantity</span>
+                        <form method="post" action="/Home/UpdateQuantity" style="display:inline;">
+                            <input type="hidden" name="productId" value="@p.Id" />
+                            <input type="hidden" name="change" value="1" />
+                            <button type="submit" class="btn btn-secondary btn-sm">+</button>
+                        </form>
+                    </td>
+                    <td>@String.Format("{0:N0} đ", p.Price)</td>
+                    <td>@String.Format("{0:N0} đ", total)</td>
+                    <td>
+                        <form method="post" action="/Home/RemoveFromCart">
+                            <input type="hidden" name="productId" value="@p.Id" />
+                            <button type="submit" class="btn btn-danger btn-sm">Xóa</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        }
+        </tbody>
+    </table>
+    <div class="text-end">
+        <h5>Tổng tiền: <span class="text-danger">@String.Format("{0:N0} đ", grandTotal)</span></h5>
+        <button class="btn btn-success mt-3" disabled>Thanh toán</button>
+    </div>
+}
+else
+{
+    <div class="alert alert-info text-center">Giỏ hàng của bạn đang trống.</div>
+}
+<div class="mt-4">
+    <a href="/Home/Index" class="btn btn-secondary">Quay lại trang chủ</a>
+</div>
