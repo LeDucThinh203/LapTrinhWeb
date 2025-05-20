@@ -16,6 +16,7 @@
     <table class="table table-bordered text-center align-middle">
         <thead class="table-secondary">
             <tr>
+                <th><input type="checkbox" id="checkAll" onclick="toggleAll(this)" /></th>
                 <th>STT</th>
                 <th>Hình ảnh</th>
                 <th>Tên sản phẩm</th>
@@ -34,10 +35,13 @@
                 var total = quantity * p.Price;
                 grandTotal += total;
                 <tr>
+                    <td>
+                        <input type="checkbox" name="selectedProducts" value="@p.Id" class="product-checkbox" />
+                    </td>
                     <td>@(stt++)</td>
                     <td><img src="@p.Image" alt="@p.Name" style="width:60px; height:60px; object-fit:cover;" /></td>
                     <td>@p.Name</td>
-                    <td>
+                    <td class="product-quantity" data-quantity="@quantity">
                         <form method="post" action="/Home/UpdateQuantity" style="display:inline;">
                             <input type="hidden" name="productId" value="@p.Id" />
                             <input type="hidden" name="change" value="-1" />
@@ -50,7 +54,7 @@
                             <button type="submit" class="btn btn-secondary btn-sm">+</button>
                         </form>
                     </td>
-                    <td>@String.Format("{0:N0} đ", p.Price)</td>
+                    <td class="product-price" data-price="@p.Price">@String.Format("{0:N0} đ", p.Price)</td>
                     <td>@String.Format("{0:N0} đ", total)</td>
                     <td>
                         <form method="post" action="/Home/RemoveFromCart">
@@ -64,7 +68,9 @@
         </tbody>
     </table>
     <div class="text-end">
-        <h5>Tổng tiền: <span class="text-danger">@String.Format("{0:N0} đ", grandTotal)</span></h5>
+        <h5>
+            Tổng tiền: <span id="selectedTotal" class="text-danger">@String.Format("{0:N0} đ", grandTotal)</span>
+        </h5>
         <button class="btn btn-success mt-3" disabled>Thanh toán</button>
     </div>
 }
@@ -75,3 +81,30 @@ else
 <div class="mt-4">
     <a href="/Home/Index" class="btn btn-secondary">Quay lại trang chủ</a>
 </div>
+<script>
+    function toggleAll(source) {
+        document.querySelectorAll('.product-checkbox').forEach(cb => cb.checked = source.checked);
+    }
+
+    // Lấy dữ liệu giá trị từng sản phẩm từ HTML
+    const productRows = document.querySelectorAll('.product-checkbox');
+    function updateSelectedTotal() {
+        let total = 0;
+        document.querySelectorAll('.product-checkbox:checked').forEach(cb => {
+            const row = cb.closest('tr');
+            const price = parseInt(row.querySelector('.product-price').dataset.price);
+            const quantity = parseInt(row.querySelector('.product-quantity').dataset.quantity);
+            total += price * quantity;
+        });
+        document.getElementById('selectedTotal').innerText = total.toLocaleString('vi-VN') + ' đ';
+    }
+
+    // Gắn sự kiện cho checkbox
+    document.querySelectorAll('.product-checkbox').forEach(cb => {
+        cb.addEventListener('change', updateSelectedTotal);
+    });
+    document.getElementById('checkAll').addEventListener('change', updateSelectedTotal);
+
+    // Gọi lần đầu để cập nhật đúng khi load trang
+    updateSelectedTotal();
+</script>
