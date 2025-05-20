@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\images\\aokhoac.jpg",
+      "PackagePath": "staticwebassets\\images\\aokhoac.jpg"
+    },
+    {
       "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\images\\aothun.jpg",
       "PackagePath": "staticwebassets\\images\\aothun.jpg"
+    },
+    {
+      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\images\\balo.jpg",
+      "PackagePath": "staticwebassets\\images\\balo.jpg"
     },
     {
       "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\images\\jean.jpg",

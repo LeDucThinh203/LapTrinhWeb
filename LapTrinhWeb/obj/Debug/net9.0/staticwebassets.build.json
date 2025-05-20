@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t2rC1hE9o30L53OLz2cnAzq4Sw7OYhZ9AstuKAuyo5A=",
+  "Hash": "or0sdVYC88/epLy5gmgSayZhGFh5bDCykz+QMn/9DGU=",
   "Source": "LapTrinhWeb",
   "BasePath": "_content/LapTrinhWeb",
   "Mode": "Default",
@@ -1445,6 +1445,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\images\\aokhoac.jpg",
+      "SourceId": "LapTrinhWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\",
+      "BasePath": "_content/LapTrinhWeb",
+      "RelativePath": "images/aokhoac#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ktfjni5jnc",
+      "Integrity": "2OWbAMK/ZfwXU1juGwLRVIn3FdhilPscXkBQnBP+IZ8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\aokhoac.jpg"
+    },
+    {
       "Identity": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\images\\aothun.jpg",
       "SourceId": "LapTrinhWeb",
       "SourceType": "Discovered",
@@ -1464,6 +1485,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\aothun.jpg"
+    },
+    {
+      "Identity": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\images\\balo.jpg",
+      "SourceId": "LapTrinhWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\",
+      "BasePath": "_content/LapTrinhWeb",
+      "RelativePath": "images/balo#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "69rxp3lfcg",
+      "Integrity": "Or0Wj70U3S8a1aPs6ydK86FgzaTptJLMiw1pXL/jivA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\balo.jpg"
     },
     {
       "Identity": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\images\\jean.jpg",
@@ -3408,6 +3450,88 @@
       ]
     },
     {
+      "Route": "images/aokhoac.jpg",
+      "AssetFile": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\images\\aokhoac.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "125730"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2OWbAMK/ZfwXU1juGwLRVIn3FdhilPscXkBQnBP+IZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 03:24:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2OWbAMK/ZfwXU1juGwLRVIn3FdhilPscXkBQnBP+IZ8="
+        }
+      ]
+    },
+    {
+      "Route": "images/aokhoac.ktfjni5jnc.jpg",
+      "AssetFile": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\images\\aokhoac.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "125730"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2OWbAMK/ZfwXU1juGwLRVIn3FdhilPscXkBQnBP+IZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 03:24:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ktfjni5jnc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/aokhoac.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2OWbAMK/ZfwXU1juGwLRVIn3FdhilPscXkBQnBP+IZ8="
+        }
+      ]
+    },
+    {
       "Route": "images/aothun.7ziwf7fu5p.jpg",
       "AssetFile": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\images\\aothun.jpg",
       "Selectors": [],
@@ -3486,6 +3610,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-7Xx3uEMLCgSWV8SG4L1c1PbYdWCzGenQHZDb/FZdm1M="
+        }
+      ]
+    },
+    {
+      "Route": "images/balo.69rxp3lfcg.jpg",
+      "AssetFile": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\images\\balo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Or0Wj70U3S8a1aPs6ydK86FgzaTptJLMiw1pXL/jivA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 03:25:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "69rxp3lfcg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/balo.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Or0Wj70U3S8a1aPs6ydK86FgzaTptJLMiw1pXL/jivA="
+        }
+      ]
+    },
+    {
+      "Route": "images/balo.jpg",
+      "AssetFile": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\images\\balo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Or0Wj70U3S8a1aPs6ydK86FgzaTptJLMiw1pXL/jivA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 03:25:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Or0Wj70U3S8a1aPs6ydK86FgzaTptJLMiw1pXL/jivA="
         }
       ]
     },
