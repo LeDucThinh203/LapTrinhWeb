@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\LapTrinhWeb.csproj": {}
+    "C:\\Users\\hiep5\\OneDrive\\Máy tính\\LapTrinhWeb\\LapTrinhWeb\\LapTrinhWeb.csproj": {}
   },
   "projects": {
-    "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\LapTrinhWeb.csproj": {
+    "C:\\Users\\hiep5\\OneDrive\\Máy tính\\LapTrinhWeb\\LapTrinhWeb\\LapTrinhWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\LapTrinhWeb.csproj",
+        "projectUniqueName": "C:\\Users\\hiep5\\OneDrive\\Máy tính\\LapTrinhWeb\\LapTrinhWeb\\LapTrinhWeb.csproj",
         "projectName": "LapTrinhWeb",
-        "projectPath": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\LapTrinhWeb.csproj",
-        "packagesPath": "C:\\Users\\leduc\\.nuget\\packages\\",
-        "outputPath": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\obj\\",
+        "projectPath": "C:\\Users\\hiep5\\OneDrive\\Máy tính\\LapTrinhWeb\\LapTrinhWeb\\LapTrinhWeb.csproj",
+        "packagesPath": "C:\\Users\\hiep5\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hiep5\\OneDrive\\Máy tính\\LapTrinhWeb\\LapTrinhWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\leduc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\hiep5\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,11 +38,23 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
