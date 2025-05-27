@@ -65,10 +65,15 @@ public class HomeController : Controller
 
     public IActionResult ProductDetail(int id)
     {
-       
-      
-       
-        return View();
+        using (var context = new Data.AppDbContext())
+        {
+            var product = context.Products.FirstOrDefault(p => p.ProductId == id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return View(product);
+        }
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -1,0 +1,22 @@
+@model LapTrinhWeb.Models.Entities.Product
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+}
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="@Model.Image" alt="@Model.Name" class="img-fluid rounded shadow" style="max-height:400px;object-fit:cover;">
+        </div>
+        <div class="col-md-6">
+            <h2 class="fw-bold mb-3">@Model.Name</h2>
+            <p class="lead text-danger fw-bold">@Model.Price.ToString("N0") VNĐ</p>
+            <p>@Model.Description</p>
+            <form method="post" action="@Url.Action("AddToCart", "Home")">
+                <input type="hidden" name="productId" value="@Model.Id" />
+                <button type="submit" class="btn btn-success">Thêm vào giỏ hàng</button>
+            </form>
+            <a href="@Url.Action("Index", "Home")" class="btn btn-secondary mt-3">Quay lại</a>
+        </div>
+    </div>
+</div>
