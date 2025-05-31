@@ -13,7 +13,7 @@
             <p class="lead text-danger fw-bold">@Model.Price.ToString("N0") VNĐ</p>
             <p>@Model.Description</p>
             <form method="post" action="@Url.Action("AddToCart", "Home")">
-                <input type="hidden" name="productId" value="@Model.Id" />
+                <input type="hidden" name="productId" value="@Model.ProductId" />
                 <button type="submit" class="btn btn-success">Thêm vào giỏ hàng</button>
             </form>
             <a href="@Url.Action("Index", "Home")" class="btn btn-secondary mt-3">Quay lại</a>

@@ -1,0 +1,124 @@
+@model List<LapTrinhWeb.Models.Entities.Product>
+@{
+    ViewData["Title"] = "Kết quả tìm kiếm";
+    var searchQuery = ViewData["SearchQuery"] as string;
+    var categories = ViewData["Categories"] as List<LapTrinhWeb.Models.Entities.Category>;
+}
+
+<link rel="stylesheet" href="~/css/search.css" />
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h5 class="mb-0">Tìm kiếm</h5>
+                </div>                <div class="card-body">
+                    <form action="/Home/Search" method="get">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" name="query" value="@searchQuery" placeholder="Tìm kiếm sản phẩm...">
+                            <button class="btn btn-outline-primary" type="submit">Tìm</button>
+                        </div>
+                        
+                        <div class="mt-3">
+                            <label class="form-label">Tìm kiếm nâng cao</label>
+                            <select name="categoryId" class="form-select mb-3">
+                                <option value="">-- Chọn danh mục --</option>
+                                @if (categories != null)
+                                {
+                                    foreach (var cat in categories)
+                                    {                                        bool isSelected = ViewData["SelectedCategoryId"] != null && 
+                                                         ViewData["SelectedCategoryId"] is int selCatId && 
+                                                         selCatId == cat.CategoryId;
+                                        <option value="@cat.CategoryId" selected="@isSelected">@cat.Name</option>
+                                    }
+                                }
+                            </select>
+                            <button class="btn btn-primary w-100" type="submit">Tìm kiếm nâng cao</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">Danh mục</h5>                </div>
+                <div class="card-body">
+                    <ul class="list-group">                        <li class="list-group-item @(ViewData["SelectedCategoryId"] == null ? "active" : "")">
+                            <a href="@Url.Action("Search", "Home")" class="text-decoration-none @(ViewData["SelectedCategoryId"] == null ? "text-white" : "")">
+                                Tất cả sản phẩm
+                            </a>
+                        </li>
+                        @if (categories != null)
+                        {
+                            @foreach (var category in categories)
+                            {
+                                <li class="list-group-item @(ViewData["SelectedCategoryId"] != null && (int)ViewData["SelectedCategoryId"] == category.CategoryId ? "active" : "")">
+                                    <a href="@Url.Action("Search", "Home", new { categoryId = category.CategoryId })" class="text-decoration-none @(ViewData["SelectedCategoryId"] != null && (int)ViewData["SelectedCategoryId"] == category.CategoryId ? "text-white" : "")">
+                                        @category.Name
+                                    </a>
+                                </li>
+                            }
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>        <div class="col-md-9">
+            @{
+                string pageTitle = "Tất cả sản phẩm";
+                string categoryName = string.Empty;
+                
+                if (ViewData["SelectedCategoryId"] != null && ViewData["SelectedCategoryId"] is int selectedCategoryId && selectedCategoryId > 0)
+                {
+                    categoryName = categories?.FirstOrDefault(c => c.CategoryId == selectedCategoryId)?.Name ?? "";
+                    pageTitle = $"Danh mục: {categoryName}";
+                }
+                
+                if (!string.IsNullOrEmpty(searchQuery))
+                {
+                    pageTitle = $"Kết quả tìm kiếm: {searchQuery}";
+                    if (!string.IsNullOrEmpty(categoryName)) {
+                        pageTitle += $" trong {categoryName}";
+                    }
+                }
+            }
+            
+            <h2 class="mb-4">@pageTitle</h2>
+
+            @if (!Model.Any())
+            {
+                <div class="alert alert-info">
+                    <p>Không tìm thấy sản phẩm phù hợp với từ khóa "@searchQuery".</p>
+                    <a href="/Home/Index" class="btn btn-primary mt-3">Quay lại trang chủ</a>
+                </div>
+            }
+            else
+            {
+                <div class="row">
+                    @foreach (var product in Model)
+                    {
+                        <div class="col-md-4 mb-4">
+                            <div class="card product-card h-100">
+                                <img src="@product.Image" class="card-img-top" alt="@product.Name">
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title">@product.Name</h5>
+                                    <p class="card-text flex-grow-1">@product.Description</p>
+                                    <p class="card-text">
+                                        <span class="badge bg-secondary">
+                                            @(categories?.FirstOrDefault(c => c.CategoryId == product.CategoryId)?.Name ?? "Không có danh mục")
+                                        </span>
+                                    </p>                                    <p class="card-text fw-bold text-danger">@product.Price.ToString("N0") VNĐ</p>
+                                    <a href="@Url.Action("ProductDetail", "Home", new { id = product.ProductId })" class="btn btn-primary mt-auto">Xem chi tiết</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+
+            <div class="mt-4">
+                <a href="/Home/Index" class="btn btn-outline-secondary">Quay lại trang chủ</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -126,11 +126,11 @@ namespace LapTrinhWeb.Migrations
 
             modelBuilder.Entity("LapTrinhWeb.Models.Entities.Product", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("ProductId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductId"));
 
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
@@ -143,6 +143,9 @@ namespace LapTrinhWeb.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsFeatured")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -150,10 +153,7 @@ namespace LapTrinhWeb.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
+                    b.HasKey("ProductId");
 
                     b.HasIndex("CategoryId");
 
@@ -162,53 +162,53 @@ namespace LapTrinhWeb.Migrations
                     b.HasData(
                         new
                         {
-                            Id = 1,
+                            ProductId = 1,
                             CategoryId = 1,
                             Description = "Áo thun chất liệu cotton mềm mại, thấm hút mồ hôi, phù hợp đi chơi hoặc tập thể thao.",
                             Image = "/images/aothun.jpg",
+                            IsFeatured = true,
                             Name = "Áo Thun Năng Động",
-                            Price = 150000m,
-                            ProductId = 1
+                            Price = 150000m
                         },
                         new
                         {
-                            Id = 2,
+                            ProductId = 2,
                             CategoryId = 1,
                             Description = "Thiết kế trẻ trung, phong cách với chất liệu Jean co giãn nhẹ, dễ phối đồ.",
                             Image = "/images/jean.jpg",
+                            IsFeatured = false,
                             Name = "Quần Jean Cá Tính",
-                            Price = 300000m,
-                            ProductId = 2
+                            Price = 300000m
                         },
                         new
                         {
-                            Id = 3,
+                            ProductId = 3,
                             CategoryId = 2,
                             Description = "Sneaker siêu nhẹ, đế cao su chống trượt, phù hợp với cả nam và nữ.",
                             Image = "/images/sneaker.jpg",
+                            IsFeatured = true,
                             Name = "Giày Sneaker Thời Trang",
-                            Price = 500000m,
-                            ProductId = 3
+                            Price = 500000m
                         },
                         new
                         {
-                            Id = 4,
+                            ProductId = 4,
                             CategoryId = 1,
                             Description = "Áo khoác gió chống nước, nhẹ, phù hợp đi chơi, du lịch.",
                             Image = "/images/aokhoac.jpg",
+                            IsFeatured = true,
                             Name = "Áo Khoác Gió",
-                            Price = 400000m,
-                            ProductId = 4
+                            Price = 400000m
                         },
                         new
                         {
-                            Id = 5,
+                            ProductId = 5,
                             CategoryId = 3,
                             Description = "Balo vải bố bền đẹp, nhiều ngăn tiện lợi cho học sinh, sinh viên.",
                             Image = "/images/balo.jpg",
+                            IsFeatured = false,
                             Name = "Balo Thời Trang",
-                            Price = 250000m,
-                            ProductId = 5
+                            Price = 250000m
                         });
                 });
 

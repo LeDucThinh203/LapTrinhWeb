@@ -1,0 +1,95 @@
+/* Product management specific styles */
+
+/* Product list table */
+.product-image-thumbnail {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.product-actions .btn {
+    margin-right: 5px;
+}
+
+.product-actions .btn:last-child {
+    margin-right: 0;
+}
+
+/* Product forms */
+.image-preview-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.image-preview {
+    max-height: 200px;
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+/* Product detail page */
+.product-detail-image {
+    max-height: 300px;
+    object-fit: contain;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+/* Custom badge colors */
+.badge.bg-success {
+    background-color: #28a745 !important;
+}
+
+.badge.bg-secondary {
+    background-color: #6c757d !important;
+}
+
+/* Card styling */
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header.bg-info {
+    background-color: #17a2b8 !important;
+}
+
+.card-header.bg-danger {
+    background-color: #dc3545 !important;
+}
+
+/* Form controls */
+.form-control:focus, 
+.form-select:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+}
+
+/* Delete confirmation page */
+.delete-warning {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-footer .d-flex {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .card-footer .btn {
+        width: 100%;
+    }
+}

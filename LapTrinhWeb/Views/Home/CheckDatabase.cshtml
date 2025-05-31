@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Kiểm tra cấu trúc Database";
+}
+
+<div class="container my-5">
+    <h1>Kiểm tra cấu trúc Database</h1>
+    <hr />
+    
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h4>Kết quả kiểm tra</h4>
+        </div>
+        <div class="card-body">
+            <pre style="background-color: #f8f9fa; padding: 15px; border-radius: 5px; white-space: pre-wrap;">@Html.Raw(ViewBag.DatabaseInfo)</pre>
+        </div>
+        <div class="card-footer">
+            <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Quay lại trang chủ</a>
+            <a href="@Url.Action("Index", "Product")" class="btn btn-primary">Quản lý sản phẩm</a>
+        </div>
+    </div>
+</div>

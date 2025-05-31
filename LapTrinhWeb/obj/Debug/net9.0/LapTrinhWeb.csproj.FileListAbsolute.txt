@@ -321,3 +321,6 @@ C:\Users\hiep5\OneDrive\Máy tính\LapTrinhWeb\LapTrinhWeb\bin\Debug\net9.0\runt
 C:\Users\hiep5\OneDrive\Máy tính\LapTrinhWeb\LapTrinhWeb\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\hiep5\OneDrive\Máy tính\LapTrinhWeb\LapTrinhWeb\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\hiep5\OneDrive\Máy tính\LapTrinhWeb\LapTrinhWeb\obj\Debug\net9.0\LapTrinh.F142DEB0.Up2Date
+C:\Users\hiep5\OneDrive\Máy tính\LapTrinhWeb\LapTrinhWeb\obj\Debug\net9.0\compressed\990vgn2gno-4zppcr70dk.gz
+C:\Users\hiep5\OneDrive\Máy tính\LapTrinhWeb\LapTrinhWeb\obj\Debug\net9.0\compressed\bhmmylzvwa-5zq3zzxhen.gz
+C:\Users\hiep5\OneDrive\Máy tính\LapTrinhWeb\LapTrinhWeb\obj\Debug\net9.0\compressed\hkq0ubqlnb-k262ebgpl8.gz

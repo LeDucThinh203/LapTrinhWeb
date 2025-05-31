@@ -1,0 +1,91 @@
+@model LapTrinhWeb.Models.ViewModels.ProductViewModel
+
+@{
+    ViewData["Title"] = "Thêm sản phẩm mới";
+}
+
+<div class="container my-5">
+    <h1>@ViewData["Title"]</h1>
+    <hr />
+    <div class="row">
+        <div class="col-md-8">
+            <form asp-action="Create" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label asp-for="Name" class="form-label"></label>
+                            <input asp-for="Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Price" class="form-label"></label>
+                            <div class="input-group">
+                                <input asp-for="Price" class="form-control" />
+                                <span class="input-group-text">VNĐ</span>
+                            </div>
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="CategoryId" class="form-label"></label>
+                            <select asp-for="CategoryId" class="form-select" asp-items="ViewBag.Categories">
+                                <option value="">-- Chọn danh mục --</option>
+                            </select>
+                            <span asp-validation-for="CategoryId" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Description" class="form-label"></label>
+                            <textarea asp-for="Description" class="form-control" rows="5"></textarea>
+                            <span asp-validation-for="Description" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="ImageFile" class="form-label"></label>
+                            <input asp-for="ImageFile" class="form-control" type="file" accept="image/*" onchange="previewImage(event)" />
+                            <span asp-validation-for="ImageFile" class="text-danger"></span>                            <div class="mt-2 image-preview-container">
+                                <img id="preview" src="#" alt="Xem trước" class="image-preview" style="display: none;" />
+                            </div>
+                        </div>
+                        <div class="form-check mb-3">
+                            <input asp-for="IsFeatured" class="form-check-input" />
+                            <label asp-for="IsFeatured" class="form-check-label"></label>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-between">
+                            <a asp-action="Index" class="btn btn-secondary">Quay lại danh sách</a>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="bi bi-save"></i> Lưu sản phẩm
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header bg-info text-white">
+                    <h5 class="mb-0">Hướng dẫn</h5>
+                </div>
+                <div class="card-body">
+                    <p><strong>Tên sản phẩm:</strong> Nhập tên đầy đủ và mô tả ngắn gọn.</p>
+                    <p><strong>Giá:</strong> Nhập giá sản phẩm (VNĐ), không bao gồm dấu phẩy.</p>
+                    <p><strong>Danh mục:</strong> Chọn danh mục phù hợp cho sản phẩm.</p>
+                    <p><strong>Mô tả:</strong> Nhập mô tả chi tiết về sản phẩm.</p>
+                    <p><strong>Hình ảnh:</strong> Tải lên hình ảnh sản phẩm (định dạng JPG, PNG hoặc GIF).</p>
+                    <p><strong>Sản phẩm nổi bật:</strong> Chọn nếu muốn sản phẩm xuất hiện trong mục "Sản phẩm nổi bật" trên trang chủ.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        function previewImage(event) {
+            var preview = document.getElementById('preview');
+            preview.style.display = 'block';
+            preview.src = URL.createObjectURL(event.target.files[0]);
+        }
+    </script>
+}
