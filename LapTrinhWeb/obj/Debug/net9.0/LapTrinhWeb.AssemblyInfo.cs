@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("LapTrinhWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+184a185327c1c2c13afa274931df6870649bd8dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3e1b0965ddf7f1e768eee3bea5e925579cedea4")]
 [assembly: System.Reflection.AssemblyProductAttribute("LapTrinhWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LapTrinhWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

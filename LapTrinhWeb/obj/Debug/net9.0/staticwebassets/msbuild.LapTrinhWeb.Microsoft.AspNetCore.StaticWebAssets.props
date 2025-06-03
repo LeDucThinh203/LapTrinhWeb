@@ -1,5 +1,41 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\product-management.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LapTrinhWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LapTrinhWeb</BasePath>
+      <RelativePath>css/product-management.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5zq3zzxhen</Fingerprint>
+      <Integrity>UWrV7TF6kvoQJ8LcpjaeW1ZYxNpbq/25sYY6oVag/dc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\product-management.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\search.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LapTrinhWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LapTrinhWeb</BasePath>
+      <RelativePath>css/search.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>4zppcr70dk</Fingerprint>
+      <Integrity>wJebnCHxqA97Vk372BivYdaGhlAU5Oun0rm5DQZ9tSk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\search.css'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))">
       <SourceType>Package</SourceType>
       <SourceId>LapTrinhWeb</SourceId>
@@ -125,6 +161,114 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\logo.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\no-image.svg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LapTrinhWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LapTrinhWeb</BasePath>
+      <RelativePath>images/no-image.svg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vmgcff459k</Fingerprint>
+      <Integrity>N2q1PpMH31QzwiXXDIQBTDTSeeC7GKtAouCxqaxW+PQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\no-image.svg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\00a6a9dd-81f1-4e05-bfe0-d40b37c69f74_24CSCS.TU002.3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LapTrinhWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LapTrinhWeb</BasePath>
+      <RelativePath>images/products/00a6a9dd-81f1-4e05-bfe0-d40b37c69f74_24CSCS.TU002.3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jq9nw3e6jj</Fingerprint>
+      <Integrity>C/07qfPERltMb/N3J9y88NpCrXgKf03yX+rSQVyeXyA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\00a6a9dd-81f1-4e05-bfe0-d40b37c69f74_24CSCS.TU002.3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\0b299786-9a51-4765-8552-c40fb8602314_24CSCS.TU002.3.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LapTrinhWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LapTrinhWeb</BasePath>
+      <RelativePath>images/products/0b299786-9a51-4765-8552-c40fb8602314_24CSCS.TU002.3.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jq9nw3e6jj</Fingerprint>
+      <Integrity>C/07qfPERltMb/N3J9y88NpCrXgKf03yX+rSQVyeXyA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\0b299786-9a51-4765-8552-c40fb8602314_24CSCS.TU002.3.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\23a393bf-941e-48f7-9d5e-1af068d157df_24CM.MAWCS.JGZ996_-_Buluga_1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LapTrinhWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LapTrinhWeb</BasePath>
+      <RelativePath>images/products/23a393bf-941e-48f7-9d5e-1af068d157df_24CM.MAWCS.JGZ996_-_Buluga_1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e0xqyfhor3</Fingerprint>
+      <Integrity>njc3kZQGqjIosVh4PlCh+mAww0Sj7DaopAXtOtnQpDA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\23a393bf-941e-48f7-9d5e-1af068d157df_24CM.MAWCS.JGZ996_-_Buluga_1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\b4b9361d-9dbc-48da-b67b-481ea1c95579_ao-singlet-chay-bo-advanced-vent-techgraphic-camo-448do-nau_74.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LapTrinhWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LapTrinhWeb</BasePath>
+      <RelativePath>images/products/b4b9361d-9dbc-48da-b67b-481ea1c95579_ao-singlet-chay-bo-advanced-vent-techgraphic-camo-448do-nau_74.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ysnus1l7jt</Fingerprint>
+      <Integrity>AiRlGFYIWHRc3ed/3NHJvHWTe3uAZzfgxICt6w3W+EA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\b4b9361d-9dbc-48da-b67b-481ea1c95579_ao-singlet-chay-bo-advanced-vent-techgraphic-camo-448do-nau_74.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\e1bcfcb9-07f0-4400-817e-88e8459764f6_ao-singlet-chay-bo-advanced-vent-techgraphic-camo-448do-nau_74.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>LapTrinhWeb</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/LapTrinhWeb</BasePath>
+      <RelativePath>images/products/e1bcfcb9-07f0-4400-817e-88e8459764f6_ao-singlet-chay-bo-advanced-vent-techgraphic-camo-448do-nau_74.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ysnus1l7jt</Fingerprint>
+      <Integrity>AiRlGFYIWHRc3ed/3NHJvHWTe3uAZzfgxICt6w3W+EA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\e1bcfcb9-07f0-4400-817e-88e8459764f6_ao-singlet-chay-bo-advanced-vent-techgraphic-camo-448do-nau_74.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\sneaker.jpg'))">
       <SourceType>Package</SourceType>

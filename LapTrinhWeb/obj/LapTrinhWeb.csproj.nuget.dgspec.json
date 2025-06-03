@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hiep5\\OneDrive\\Máy tính\\LapTrinhWeb\\LapTrinhWeb\\LapTrinhWeb.csproj": {}
+    "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\LapTrinhWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hiep5\\OneDrive\\Máy tính\\LapTrinhWeb\\LapTrinhWeb\\LapTrinhWeb.csproj": {
+    "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\LapTrinhWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hiep5\\OneDrive\\Máy tính\\LapTrinhWeb\\LapTrinhWeb\\LapTrinhWeb.csproj",
+        "projectUniqueName": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\LapTrinhWeb.csproj",
         "projectName": "LapTrinhWeb",
-        "projectPath": "C:\\Users\\hiep5\\OneDrive\\Máy tính\\LapTrinhWeb\\LapTrinhWeb\\LapTrinhWeb.csproj",
-        "packagesPath": "C:\\Users\\hiep5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hiep5\\OneDrive\\Máy tính\\LapTrinhWeb\\LapTrinhWeb\\obj\\",
+        "projectPath": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\LapTrinhWeb.csproj",
+        "packagesPath": "C:\\Users\\leduc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hiep5\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\leduc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,12 +38,20 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.5, )"
@@ -74,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

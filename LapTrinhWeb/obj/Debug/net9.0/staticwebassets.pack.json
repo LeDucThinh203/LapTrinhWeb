@@ -1,283 +1,315 @@
 {
   "Files": [
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LapTrinhWeb.bundle.scp.css",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\LapTrinhWeb.bundle.scp.css",
       "PackagePath": "staticwebassets\\LapTrinhWeb.xze5j3qi6y.bundle.scp.css"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\css\\product-management.css",
+      "PackagePath": "staticwebassets\\css\\product-management.css"
+    },
+    {
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\css\\search.css",
+      "PackagePath": "staticwebassets\\css\\search.css"
+    },
+    {
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\images\\aokhoac.jpg",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\images\\aokhoac.jpg",
       "PackagePath": "staticwebassets\\images\\aokhoac.jpg"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\images\\aothun.jpg",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\images\\aothun.jpg",
       "PackagePath": "staticwebassets\\images\\aothun.jpg"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\images\\balo.jpg",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\images\\balo.jpg",
       "PackagePath": "staticwebassets\\images\\balo.jpg"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\images\\jean.jpg",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\images\\jean.jpg",
       "PackagePath": "staticwebassets\\images\\jean.jpg"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\images\\logo.png",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\images\\logo.png",
       "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\images\\sneaker.jpg",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\images\\no-image.svg",
+      "PackagePath": "staticwebassets\\images\\no-image.svg"
+    },
+    {
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\images\\products\\00a6a9dd-81f1-4e05-bfe0-d40b37c69f74_24CSCS.TU002.3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\00a6a9dd-81f1-4e05-bfe0-d40b37c69f74_24CSCS.TU002.3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\images\\products\\0b299786-9a51-4765-8552-c40fb8602314_24CSCS.TU002.3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\0b299786-9a51-4765-8552-c40fb8602314_24CSCS.TU002.3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\images\\products\\23a393bf-941e-48f7-9d5e-1af068d157df_24CM.MAWCS.JGZ996_-_Buluga_1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\23a393bf-941e-48f7-9d5e-1af068d157df_24CM.MAWCS.JGZ996_-_Buluga_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\images\\products\\b4b9361d-9dbc-48da-b67b-481ea1c95579_ao-singlet-chay-bo-advanced-vent-techgraphic-camo-448do-nau_74.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\b4b9361d-9dbc-48da-b67b-481ea1c95579_ao-singlet-chay-bo-advanced-vent-techgraphic-camo-448do-nau_74.jpg"
+    },
+    {
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\images\\products\\e1bcfcb9-07f0-4400-817e-88e8459764f6_ao-singlet-chay-bo-advanced-vent-techgraphic-camo-448do-nau_74.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\e1bcfcb9-07f0-4400-817e-88e8459764f6_ao-singlet-chay-bo-advanced-vent-techgraphic-camo-448do-nau_74.jpg"
+    },
+    {
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\images\\sneaker.jpg",
       "PackagePath": "staticwebassets\\images\\sneaker.jpg"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Id": "C:\\laragon\\www\\Lap_Trinh_Web\\LapTrinhWeb\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Id": "C:\\Users\\leduc\\LapTrinhWeb\\LapTrinhWeb\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
